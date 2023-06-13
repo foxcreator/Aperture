@@ -173,3 +173,66 @@ h5 {
     position: center;
     padding-top: 29px;
 }
+
+.sunset_section {
+    background-image: url("../img/sunset.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.monstera {
+    background-image: url("../img/monstera.jpg");
+}
+
+.himalayas {
+    background-image: url("../img/himalayas.jpg");
+}
+
+.sunset_section article {
+    max-width: 300px;
+}
+
+.sunset_section article h5 {
+    text-align: left;
+}
+
+.sunset_section article p {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    color: #C0C0C0;
+}
+
+.container {
+    max-width: 1168px;
+    margin: auto;
+}
+
+.past_clients {
+    padding: 113px 0 140px;
+    background: black;
+}
+
+.past_clients h5 {
+    margin-bottom: 82px;
+}
+
+.past_clients h2 {
+    margin-bottom: 15px;
+}
+
+.past_clients .logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.past_clients .logos a {
+    display: inline-block;
+    margin: 0 10px;
+    max-width: 128px;
+}
